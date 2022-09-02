@@ -1,0 +1,60 @@
+.box{
+    display: inline-block;
+    width: 300px;
+    border: 1px solid;
+    box-shadow: 0 5px 10px rgb(198, 201, 201);
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    max-width: 100%;
+}
+.header{
+    margin: 0;
+    text-align: center;
+    font-size: 54px;
+    background: rgb(242 240 240);
+    padding: 20px;
+    max-width: 100%;
+}
+body{
+    background-color: black;
+}
+.search-input{
+    display: block;
+    margin: 30px auto 0;
+    width: 350px;
+    height: 40px;
+    font-size: 24px;
+    border: 2px solid #fff;
+    max-width: 100%;
+}
+.btn{
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 100%;
+}
+.city-name{
+    text-align: center;
+    font-size: 47px;
+    margin: 0;
+}
+.city-des{
+    display:block;
+    margin:auto;
+    width:150px;
+}
+.detail{
+    font-size: 20px;
+    text-align: center;
+}
+.box-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    width: 50px;
+    border: none;
+}
