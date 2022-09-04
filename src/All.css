@@ -5,7 +5,6 @@
     box-shadow: 0 5px 10px rgb(198, 201, 201);
     margin: 20px;
     color: #fff;
-    position: relative;
     max-width: 100%;
 }
 .header{
@@ -19,15 +18,6 @@
 body{
     background-color: black;
 }
-.search-input{
-    display: block;
-    margin: 30px auto 0;
-    width: 350px;
-    height: 40px;
-    font-size: 24px;
-    border: 2px solid #fff;
-    max-width: 100%;
-}
 .btn{
     display: block;
     margin: auto;
@@ -36,25 +26,38 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     max-width: 100%;
 }
-.city-name{
-    text-align: center;
-    font-size: 47px;
-    margin: 0;
-}
-.city-des{
+
+.img{
     display:block;
     margin:auto;
-    width:150px;
 }
 .detail{
-    font-size: 20px;
     text-align: center;
 }
-.box-btn{
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 24px;
-    width: 50px;
-    border: none;
+.update{
+    color: #fff;
+    font-size: 28px;
+}
+.input{
+    width: 230px;
+    height: 24px;
+    max-width: 100%;
+}
+.btn-update{
+    margin-top: 20px;
+}
+.nav{
+    font-size :24px;
+    text-decoration:none;
+    color:#fff;
+    padding:6px 12px;
+}
+.nav:hover{
+    background-color: rgb(221, 220, 220);
+    color: black;
+}
+.message{
+    color: aquamarine;
+    font-size: 32px;
+    text-align: center;
 }
