@@ -1,0 +1,182 @@
+.margin{
+    margin-top: 20px;
+}
+.tittle-img{
+    font-size: 44px;
+    font-weight: 700 !important;
+    color: #00bea4;
+    margin-top: 20px;
+
+}
+.tittle-img span{
+    font-size: 64px;
+    color: black;
+
+}
+.tittle{
+    font-size: 54px;
+    font-weight: 700 !important;
+    color: black;
+}
+.tittle span{
+    color: #00bea4;
+    font-weight: 100 !important;
+}
+.tittle-login{
+    font-size: 24px;
+    margin: 30px 0;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0 10px 10px;
+    box-shadow: 0 10px 20px #113216;
+    text-decoration: none;
+    color: #000;
+    margin-right: 40px;
+}
+.tittle-login span{
+    font-size: 34px;
+    margin-right: 30px;
+}
+
+
+.tittle-width-margin{
+    font-size: 28px;
+    max-width: 100%;
+    margin-left: 40px;
+}
+.tittle-width-margin span{
+    width: 80px;
+    height: 1px;
+    display: inline-block;
+    border: 0.5px solid #000;
+    vertical-align: middle;
+    max-width: 100%;    
+}
+.form-input{
+    margin: 10px 0px;
+    width: 400px;
+    height: 50px;
+    font-size: 22px;
+    border: 1px solid;
+    border-radius: 4px;
+    max-width: 100%;
+}
+.btn-primary{
+    padding: 5px 30px;
+    font-size: 26px;
+    border: 1px solid;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #0d6efd;;
+}
+.btn-primary:active{
+    transform: translateY(2px);
+}
+
+
+
+.singout-btn:active,.tittle-login:active{
+    transform: translateY(1px);
+}
+.singout-btn{
+    font-size: 24px;
+    margin: 40px 0;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 40px;
+    background-color: transparent;
+    border-radius: 6px;
+
+}
+
+.box{
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    position: relative;
+    max-width: 100%;
+    border: 1px solid;
+}
+.header{
+    max-width: 100%;
+    margin: 0;
+    background:#f2f0f0c2;
+    
+}
+
+.logging-page{
+    background: url('../src/img/1.png') no-repeat center/cover;
+    height: 100vh;
+}
+
+.search-input{
+    display: block;
+    margin: 30px auto 0;
+    width: 350px;
+    height: 40px;
+    font-size: 24px;
+    border: 2px solid;
+    max-width: 100%;
+}
+.submit-btn{
+    background-color: #f2f0f0c2;
+    display: block;
+    margin: auto;
+    border: 1px solid #000;
+    padding: 4px 49px;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 100%;
+}
+
+.city-name{
+    text-align: center;
+    font-size: 47px;
+    margin: 0;
+}
+.city-des{
+    display:block;
+    margin:auto;
+    width:150px;
+}
+.detail{
+    font-size: 20px;
+    text-align: center;
+}
+.box-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    width: 50px;
+    border: none;
+    background-color: #ab0f0fa8;
+    
+}
+textarea{
+    resize: none;
+}
+
+.feedback{
+    color: #000;
+    border: 2px solid;
+    padding: 3px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .logging-page .header{flex-direction: column;text-align: center;}
+    .tittle-width-margin{font-size: 22px;max-width: 100%;margin-left: 0px;}
+    .tittle-width-margin span{width: 50px;height: 1px;display: inline-block;border: 0.5px solid #000;vertical-align: middle;max-width: 100%;    }
+}
+
+
+
+
+@media screen and (max-width:460px){
+    .log-img-form{flex-direction: column;justify-content: center;align-items: center;}
+    .tittle-user-img{display: block;text-align: center; font-size: 82px;}
+    /* .tittle-width-margin{font-size: 22px;max-width: 100%;margin-left: 0px;} */
+    /* .tittle-width-margin span{width: 50px;height: 1px;display: inline-block;border: 0.5px solid #000;vertical-align: middle;max-width: 100%;    } */
+}

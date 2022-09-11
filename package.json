@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Varun-Mandley.github.io/Crud-App",
+  "homepage": "https://Varun-Mandley.github.io/weather-auth",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -8,9 +8,11 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
     "firebase": "^9.9.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
     "react-router-dom": "^5.3.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
